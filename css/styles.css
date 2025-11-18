@@ -14,7 +14,7 @@ body {
 
 .nav-menu a {
     text-decoration: none;
-    color: lightcoral;
+    color: white;
 }
 
 nav {
@@ -33,15 +33,16 @@ nav {
 }
 
 .nav-menu a {
-    background-color: darkred;
+    background-color:darkblue ;
     padding: 10px 20px;
     display: block;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.6s ease;
 }
 
 .nav-menu a:hover {
-    background-color: lightblue;
+    transition: background-color 0.6s ease;
+    background-color:blue ;
 }
 
 .nav-container {
@@ -56,4 +57,74 @@ nav {
     font-size: 1.5rem;
     font-weight: bold;
     margin-left: 2rem;
+}
+
+body {
+    background-color:black;
+}
+
+
+header {
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif; color: white;
+}
+
+p {
+    padding-left: 2.1rem;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.Images {
+    float: right;
+    padding-right: 4rem;
+}
+
+
+p {
+    padding-bottom:3rem ;
+}
+
+h2 {
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#intro {
+    min-height: 600px;
+    background-color: darkred;
+    color: white;
+    font-size: 3em;
+}
+
+#history {
+    min-height: 600px;
+    background-color: whitesmoke;
+    color: darkblue;
+    font-size: 3em;
+}
+
+#how {
+    min-height: 600px;
+    background-color: darkblue;
+    color: white;
+    font-size: 3em;
+}
+
+
+#why {
+    min-height: 600px;
+    background-color: darkred;
+    color: white;
+    font-size: 3em;
+}
+
+
+#divers {
+    float: right;
+    padding-right: 4rem;
+}
+
+
+footer {
+    color: white;
 }
